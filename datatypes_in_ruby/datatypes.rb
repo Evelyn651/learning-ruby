@@ -7,3 +7,6 @@ my_string = 'Ruby'
 puts my_num
 puts my_boolean
 puts my_string
+
+# variables are similar in declaration and can be reassigned value
+
