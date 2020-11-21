@@ -9,3 +9,6 @@ else
 end
 
 puts "Your string is: #{user_input}"
+
+# figure out how to have mulitple conditions as if replacing c also with th and to reprompt the user for input if
+# they enter nothing
