@@ -4,3 +4,10 @@ end
 
 # new format for for loops using the word in and .. or ... print out the numbers from 1 to 15, with .. it includes 15
 # with ... it excludes 15. it iterates automatically without a need for an expression like num += 1.
+#
+# more practice with for loops inclusive
+#
+for i in 1..50
+  print i
+  i += 1
+end
