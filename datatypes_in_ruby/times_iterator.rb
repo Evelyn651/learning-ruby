@@ -3,3 +3,7 @@
 
 
 30.times { print " Hello World!"}
+
+# review practice - use the .times iterator to print "Ruby!" to the console 30 times.
+#
+30.times { print "Ruby!"}
