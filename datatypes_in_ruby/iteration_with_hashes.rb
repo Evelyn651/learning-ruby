@@ -10,3 +10,13 @@ family = { "Homer" => "dad",
 
 friends.each { |x| puts "#{x}" }
 family.each { |x, y| puts "#{x}: #{y}" }
+
+secret_identities = {
+    "The Batman" => "Bruce Wayne",
+    "Superman" => "Clark Kent",
+    "Wonder Woman" => "Diana Prince",
+    "Freakazoid" => "Dexter Douglas"
+}
+secret_identities.each do |identity, name|
+  puts "#{identity}: #{name}"
+end
