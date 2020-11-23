@@ -8,3 +8,7 @@ puts my_hash["age"]
 puts my_hash["hungry?"]
 
 # hashes behave like kay-value pairs
+# accessing hash values
+pets = Hash.new
+pets["Marley"] = "dog"
+puts pets["Marley"]
