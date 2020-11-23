@@ -20,3 +20,17 @@ secret_identities = {
 secret_identities.each do |identity, name|
   puts "#{identity}: #{name}"
 end
+
+# iterating through lunch order array and only printing out order
+#
+lunch_order = {
+    "Ryan" => "wonton soup",
+    "Eric" => "hamburger",
+    "Jimmy" => "sandwich",
+    "Sasha" => "salad",
+    "Cole" => "taco"
+}
+
+lunch_order.each do |person, order|
+  puts order
+end
